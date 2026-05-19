@@ -1,0 +1,72 @@
+[
+  {
+    "id": "72af68c6-aed1-49f9-80d8-5831832172b0",
+    "title": "do daily workouts",
+    "description": "Spend at least 30 minutes exercising.",
+    "priority": "High",
+    "dueDate": "2026-04-03",
+    "createdAt": "2026-04-01T07:00:00.000Z",
+    "status": "Done",
+    "completed": true
+  },
+  {
+    "id": "7b9eeb52-1a47-450d-a10b-8f3c4df12fc0",
+    "title": "write down everyday mistakes",
+    "description": "Note lessons learned before sleeping.",
+    "priority": "Medium",
+    "dueDate": "2026-04-06",
+    "createdAt": "2026-04-01T08:00:00.000Z",
+    "status": "To Do",
+    "completed": false
+  },
+  {
+    "id": "65fb96c8-baa2-456c-acea-0af14fa0d6c8",
+    "title": "fronthend",
+    "description": "Fix frontend UI bugs",
+    "priority": "High",
+    "dueDate": "",
+    "createdAt": "2026-04-02T04:24:03.178Z",
+    "status": "To Do",
+    "completed": false
+  },
+  {
+    "id": "e729c899-88aa-4a2b-84de-ae75882cab97",
+    "title": "Errors",
+    "description": "debug application errors",
+    "priority": "Medium",
+    "dueDate": "",
+    "createdAt": "2026-04-02T04:25:55.958Z",
+    "status": "In Progress",
+    "completed": false
+  },
+  {
+    "id": "9252475c-7494-4c86-b4bd-2ec32fa92eda",
+    "title": "entertainment",
+    "description": "watch physchological movie ( hollywood )",
+    "priority": "High",
+    "dueDate": "",
+    "createdAt": "2026-04-02T04:28:46.948Z",
+    "status": "Done",
+    "completed": true
+  },
+  {
+    "id": "b5552227-6a16-47c7-a225-f57cf857a2a5",
+    "title": "sleep",
+    "description": "try to get atleast 6 hours of sleep",
+    "priority": "Medium",
+    "dueDate": "",
+    "createdAt": "2026-04-02T04:31:13.253Z",
+    "status": "To Do",
+    "completed": false
+  },
+  {
+    "id": "9d32327e-b899-40c1-b14a-d61db47fe29f",
+    "title": "scroll",
+    "description": "scroll things like reddit, github, discord not insta addicted stuffs",
+    "priority": "Low",
+    "dueDate": "",
+    "createdAt": "2026-04-02T04:33:30.793Z",
+    "status": "In Progress",
+    "completed": false
+  }
+]
