@@ -156,16 +156,34 @@ app.put("/tasks/:id", (req, res) => {
 
 app.delete("/tasks/:id", (req, res) => {
   const tasks = readTasks();
-  const filteredTasks = tasks.filter((task) => task.id !== req.params.id);
+
+  const filteredTasks = tasks.filter(
+    (task) => task.id !== req.params.id
+  );
 
   if (filteredTasks.length === tasks.length) {
-    return res.status(404).json({ message: "Task not found." });
+    return res.status(404).json({
+      message: "Task not found.",
+    });
   }
 
   writeTasks(filteredTasks);
-  res.json({ message: "Task deleted successfully." });
+
+  res.json({
+    message: "Task deleted successfully.",
+  });
+});
+
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
+
+app.get("*", (req, res) => {
+  res.sendFile(
+    path.join(__dirname, "../frontend/dist/index.html")
+  );
 });
 
 app.listen(PORT, () => {
-  console.log(`Backend server is running on http://localhost:${PORT}`);
+  console.log(
+    `Backend server is running on http://localhost:${PORT}`
+  );
 });
